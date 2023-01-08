@@ -11,7 +11,6 @@ const AnotherNavbar = document.querySelector(".show")
 const Menu = document.querySelector(".hamburger-menu")
 
 Menu.addEventListener("click",function(){
-   console.log("click")
     AnotherNavbar.classList.toggle("another-navbar")
       
 })
